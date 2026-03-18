@@ -15,7 +15,7 @@
 | Metric | Vanilla | With Pulsar | Improvement |
 |--------|---------|-----------------|-------------|
 | Requests/sec | 48K | 112K | **+133%** |
-| Memory (RAM) | 620 MB | 285 MB | **-54%** |
+| Memory (RAM) | 620 MB | 97 MB | **-120%** |
 | Latency P99 | 15.2ms | 3.2ms | **-79%** |
 | GC Pauses | 45/min | 8/min | **-82%** |
 | Allocations/req | ~150 | ~12 | **-92%** |
