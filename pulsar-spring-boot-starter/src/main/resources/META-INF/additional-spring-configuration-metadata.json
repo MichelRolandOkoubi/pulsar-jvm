@@ -1,0 +1,24 @@
+{
+    "groups": [
+        {
+            "name": "pulsar.pool",
+            "type": "io.pulsar.spring.PulsarProperties$Pool",
+            "sourceType": "io.pulsar.spring.PulsarProperties"
+        }
+    ],
+    "properties": [
+        {
+            "name": "pulsar.pool.max-size",
+            "type": "java.lang.Integer",
+            "description": "Maximum pool size.",
+            "defaultValue": 256
+        },
+        {
+            "name": "pulsar.pool.preallocate",
+            "type": "java.lang.Boolean",
+            "description": "Whether to preallocate pool objects at startup.",
+            "defaultValue": true
+        }
+    ],
+    "hints": []
+}
